@@ -2825,7 +2825,7 @@
 		)
 	)
 	(rectangle
-		(start 168.91 15.24)
+		(start 162.56 15.24)
 		(end 283.21 107.95)
 		(stroke
 			(width 0)
@@ -2898,7 +2898,7 @@
 	)
 	(rectangle
 		(start 13.97 15.24)
-		(end 167.64 107.95)
+		(end 161.29 107.95)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2966,7 +2966,7 @@
 	)
 	(text "24V-Network Switch"
 		(exclude_from_sim no)
-		(at 171.45 16.51 0)
+		(at 163.83 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +3084,7 @@
 		(uuid "5b1fb8f1-ce2b-448f-afad-e495bcdac459")
 	)
 	(junction
-		(at 195.58 60.96)
+		(at 181.61 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e1ace64-37e0-4807-af06-94b009c9484e")
@@ -3118,6 +3118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8977f509-6d74-4475-a5c5-d9f6eb22b7fa")
+	)
+	(junction
+		(at 203.2 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed418ed-0b8a-4b80-9428-d2394bfcf132")
 	)
 	(junction
 		(at 234.95 78.74)
@@ -3165,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 50.8) (xy 201.93 50.8)
+			(xy 171.45 50.8) (xy 187.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 53.34) (xy 227.33 53.34)
+			(xy 195.58 53.34) (xy 227.33 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3385,6 +3391,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 50.8) (xy 227.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dfb297-8c9f-411b-aabc-ada289fd9ced")
+	)
+	(wire
+		(pts
 			(xy 62.23 168.91) (xy 57.15 168.91)
 		)
 		(stroke
@@ -3425,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 60.96) (xy 210.82 60.96)
+			(xy 195.58 60.96) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 55.88) (xy 201.93 55.88)
+			(xy 171.45 55.88) (xy 187.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 58.42) (xy 201.93 58.42)
+			(xy 171.45 58.42) (xy 187.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3655,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 227.33 58.42)
+			(xy 195.58 58.42) (xy 227.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 55.88) (xy 214.63 55.88)
+			(xy 195.58 55.88) (xy 214.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3765,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 227.33 50.8)
+			(xy 195.58 50.8) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3795,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 201.93 60.96)
+			(xy 181.61 60.96) (xy 187.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4015,6 +4031,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 68.58) (xy 181.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ca6a13-0595-4705-8a15-1e34ad7cead5")
+	)
+	(wire
+		(pts
 			(xy 50.8 168.91) (xy 45.72 168.91)
 		)
 		(stroke
@@ -4082,16 +4108,6 @@
 			(type default)
 		)
 		(uuid "bdf8843b-780e-4287-a6e1-3cff941c726e")
-	)
-	(wire
-		(pts
-			(xy 195.58 62.23) (xy 195.58 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9d7ab7-1fa7-4b6b-897c-3842753d71ce")
 	)
 	(wire
 		(pts
@@ -4275,7 +4291,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 53.34) (xy 201.93 53.34)
+			(xy 171.45 53.34) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4325,13 +4341,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 60.96) (xy 195.58 60.96)
+			(xy 171.45 60.96) (xy 181.61 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e44b88aa-b5d8-4b57-9c31-bcb690aac429")
+	)
+	(wire
+		(pts
+			(xy 203.2 62.23) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45e4985-aae8-448a-809a-b50cedecc6b4")
 	)
 	(wire
 		(pts
@@ -4504,7 +4530,7 @@
 		(uuid "ffc70571-bc61-413c-9053-d2eaa84cd8e3")
 	)
 	(label "24V_SNS"
-		(at 185.42 60.96 0)
+		(at 171.45 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,7 +4640,7 @@
 		(uuid "574d8119-183d-472d-ac4a-e4962ef15115")
 	)
 	(label "24V_LATCH"
-		(at 185.42 58.42 0)
+		(at 171.45 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4784,7 +4810,7 @@
 		(uuid "a717b2da-6cee-49c2-b457-5f1d2bc0218c")
 	)
 	(label "24V_DIAG_EN"
-		(at 185.42 53.34 0)
+		(at 171.45 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4824,7 +4850,7 @@
 		(uuid "be30bb52-aaee-4007-9cfc-ec953bbb0d8f")
 	)
 	(label "24V_EN"
-		(at 185.42 50.8 0)
+		(at 171.45 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4884,7 +4910,7 @@
 		(uuid "d9c2da77-6d90-46a8-83dc-1ad9ef9813d9")
 	)
 	(label "24V_~{FAULT}"
-		(at 185.42 55.88 0)
+		(at 171.45 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5436,7 +5462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 69.85 0)
+		(at 181.61 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5446,7 +5472,7 @@
 		(dnp no)
 		(uuid "35c883f8-cd2f-4647-afa5-6b2f6572c27a")
 		(property "Reference" "#PWR061"
-			(at 195.58 76.2 0)
+			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,7 +5483,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 73.66 0)
+			(at 167.64 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5467,7 +5494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 69.85 0)
+			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5478,7 +5505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 69.85 0)
+			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 69.85 0)
+			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6617,7 +6644,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 55.88 90)
+		(at 191.77 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6627,7 +6654,7 @@
 		(dnp no)
 		(uuid "609a8e01-f4d8-42da-8a4d-99812b05e4dc")
 		(property "Reference" "R28"
-			(at 202.565 54.61 90)
+			(at 188.595 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6638,7 +6665,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.915 54.61 90)
+			(at 194.945 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6649,7 +6676,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 57.658 90)
+			(at 191.77 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6660,7 +6687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 55.88 0)
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6671,7 +6698,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 55.88 0)
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6709,7 @@
 			)
 		)
 		(property "JLCPCB" "C25744"
-			(at 205.74 55.88 90)
+			(at 191.77 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +6835,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 205.74 46.99 90)
+			(at 191.77 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7113,7 +7140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 53.34 90)
+		(at 191.77 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7123,7 +7150,7 @@
 		(dnp no)
 		(uuid "69ff8b57-d694-4f6c-8f3c-a33016fdcc3b")
 		(property "Reference" "R23"
-			(at 202.565 52.07 90)
+			(at 188.595 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7134,7 +7161,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.915 52.07 90)
+			(at 194.945 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7145,7 +7172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 55.118 90)
+			(at 191.77 55.118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7156,7 +7183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 53.34 0)
+			(at 191.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7167,7 +7194,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 53.34 0)
+			(at 191.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7178,7 +7205,7 @@
 			)
 		)
 		(property "JLCPCB" "C25744"
-			(at 205.74 53.34 90)
+			(at 191.77 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7887,6 +7914,83 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dc7e6ea-86de-4725-bb7e-14dc9000baf0")
+		(property "Reference" "#PWR064"
+			(at 203.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef27c5b9-4fb8-4707-9c5f-27a98f6ab11c")
+		)
+		(instances
+			(project "telemetry-battery-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9602,7 +9706,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 50.8 90)
+		(at 191.77 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9612,7 +9716,7 @@
 		(dnp no)
 		(uuid "dcd4a9d9-7b66-4c4c-8bae-f5b312002846")
 		(property "Reference" "R24"
-			(at 202.565 49.53 90)
+			(at 188.595 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9623,7 +9727,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.915 49.53 90)
+			(at 194.945 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9634,7 +9738,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 52.578 90)
+			(at 191.77 52.578 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,7 +9749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9656,7 +9760,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9667,7 +9771,7 @@
 			)
 		)
 		(property "JLCPCB" "C25744"
-			(at 205.74 50.8 90)
+			(at 191.77 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9774,7 +9878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 66.04 0)
+		(at 181.61 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9785,7 +9889,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0094aea-ded8-46bb-94e1-63fdaadb6a98")
 		(property "Reference" "C33"
-			(at 199.39 64.7699 0)
+			(at 185.42 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9796,7 +9900,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 199.39 67.3099 0)
+			(at 185.42 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9807,7 +9911,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 196.5452 69.85 0)
+			(at 182.5752 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +9922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 66.04 0)
+			(at 181.61 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +9933,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 195.58 66.04 0)
+			(at 181.61 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +9944,7 @@
 			)
 		)
 		(property "JLCPCB" "C1525"
-			(at 195.58 66.04 0)
+			(at 181.61 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10036,7 +10140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 58.42 90)
+		(at 191.77 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10046,7 +10150,7 @@
 		(dnp no)
 		(uuid "e5a74767-e494-49d7-b979-de43918fd703")
 		(property "Reference" "R25"
-			(at 202.565 57.15 90)
+			(at 188.595 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10057,7 +10161,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.915 57.15 90)
+			(at 194.945 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10068,7 +10172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 60.198 90)
+			(at 191.77 60.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +10183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 58.42 0)
+			(at 191.77 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10194,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 58.42 0)
+			(at 191.77 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,7 +10205,7 @@
 			)
 		)
 		(property "JLCPCB" "C25744"
-			(at 205.74 58.42 90)
+			(at 191.77 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,6 +10225,98 @@
 			(project "telemetry-battery-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb5dbb47-d2ca-4115-ad04-6da33f812838")
+		(property "Reference" "R34"
+			(at 205.105 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 205.105 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 204.978 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C11702"
+			(at 203.2 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f1bace8-3d1f-404d-b8b3-63e71374ac56")
+		)
+		(pin "2"
+			(uuid "d33dbfb9-5d0a-4987-a457-a5f9f9c6c3dc")
+		)
+		(instances
+			(project "telemetry-battery-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10538,7 +10734,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 60.96 90)
+		(at 191.77 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10548,7 +10744,7 @@
 		(dnp no)
 		(uuid "f3ecd7b7-8924-4f1c-b030-61bc7e21518d")
 		(property "Reference" "R29"
-			(at 202.565 59.69 90)
+			(at 188.595 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10559,7 +10755,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 208.915 59.69 90)
+			(at 194.945 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10570,7 +10766,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 62.738 90)
+			(at 191.77 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +10777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 60.96 0)
+			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,7 +10788,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 60.96 0)
+			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10603,7 +10799,7 @@
 			)
 		)
 		(property "JLCPCB" "C25744"
-			(at 205.74 60.96 90)
+			(at 191.77 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
