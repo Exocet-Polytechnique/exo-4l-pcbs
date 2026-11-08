@@ -1,0 +1,187 @@
+(footprint "PTC_Bourns_MF-R090"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, Ihold = 8.0A, Itrip=13.6A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf")
+	(tags "ptc resettable fuse polyfuse THT")
+	(property "Reference" "REF**"
+		(at 2.55 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "e734bcbc-cab8-4136-8256-a1edeeb793cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PTC_Bourns_MF-R090"
+		(at 2.55 3.1 0)
+		(layer "F.Fab")
+		(uuid "fc410e47-a497-445f-9ec3-cc94f6f35ce3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb972b16-29bd-45fb-a9d2-4388437876fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea830eae-3db7-4983-93b3-c8f1a242c2ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "fuse"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "672e927b-fb93-41a9-90cc-48ef97f67dc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.4 -1)
+		(end -0.838 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29893384-5935-46de-b91f-0c3fe2673f34")
+	)
+	(fp_line
+		(start -3.4 2.2)
+		(end -3.4 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19891b51-29dc-4f88-8d87-6181f1a00be8")
+	)
+	(fp_line
+		(start 0.838 -1)
+		(end 8.5 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f26233c-b54f-4d87-8fe1-2f20d5f35516")
+	)
+	(fp_line
+		(start 4.262 2.2)
+		(end -3.4 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ff9c3f2-326a-45bb-a313-8235477a5cab")
+	)
+	(fp_line
+		(start 8.5 -1)
+		(end 8.5 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64ecce56-4ea3-41f8-8bda-0349b0ffa089")
+	)
+	(fp_line
+		(start 8.5 2.2)
+		(end 5.938 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e92fae8-675c-4865-be88-2ea0375f801b")
+	)
+	(fp_rect
+		(start -3.55 -1.15)
+		(end 8.65 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4e624101-53b4-4d3e-b039-f032053525c2")
+	)
+	(fp_rect
+		(start -3.3 -0.9)
+		(end 8.4 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0e92570a-329b-4c15-8478-280807964b5e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.55 0.6 0)
+		(layer "F.Fab")
+		(uuid "b2b24bda-4677-4959-8a7d-5f4bd6cd2e56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "630ddb1b-8b59-4bd2-9b88-3ed148ffd600")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 1.2)
+		(size 2.01 2.01)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ef043c8-eada-433f-a8cd-10fde91fa201")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Bourns_MF-RG800.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
