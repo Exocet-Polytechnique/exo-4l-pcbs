@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.35,
+          "thermal_relief_spoke_width": 0.65
         }
       },
       "diff_pair_dimensions": [
@@ -58,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|204120000|45667500|8e0e20d1-0776-47a8-b912-aeb11efa481b|00000000-0000-0000-0000-000000000000",
-          "Added triangle to indicate pin 1"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -81,9 +94,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -98,13 +112,14 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -119,9 +134,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "warning",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -161,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -172,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -193,7 +214,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -236,7 +258,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -443,9 +465,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -487,7 +509,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HP.kicad_pro",
+    "filename": "power-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,9 +559,9 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
-    "bom_export_filename": "../symbols.md",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": "|",
@@ -555,7 +577,7 @@
       "exclude_dnp": true,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -570,7 +592,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -585,7 +607,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
@@ -598,41 +620,35 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Part Name",
-          "name": "Part Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Net Label",
-          "name": "Net Label",
+          "label": "Color",
+          "name": "Color",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IPN",
+          "name": "IPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "IPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -664,6 +680,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://drawing_sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
@@ -678,12 +702,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "HP.kicad_sch",
-        "name": "HP",
-        "uuid": "a2da42fd-1bb3-4c85-aaa9-b8335e514b4c"
+        "filename": "power-pcb.kicad_sch",
+        "name": "power-pcb",
+        "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
+      },
+      {
+        "filename": "relay_board.kicad_sch",
+        "name": "Relay Board",
+        "uuid": "1b53d9a2-d601-49e6-8dd5-c533e891a127"
+      },
+      {
+        "filename": "battery_sensing.kicad_sch",
+        "name": "Battery Sensing",
+        "uuid": "4fa3a345-be46-4633-8a78-edcbd88dbbde"
       }
     ],
-    "used_designators": "#FLG1-7,#PWR1-47,#PWR55-77,C1-8,C29-60,D1-16,F1,H1-4,J1-15,K1-8,L4-7,Q1-8,R1-45,TP1-8,TP29-60,U1-19",
+    "used_designators": "#FLG1-5,#PWR1-44,#PWR55-69,#SYM1-2,C1-20,C29-46,D1-6,F1-2,FB1,H1-4,J1-2,J5-8,JP1-2,L4-5,Q1,R1-8,R17-28,SW1,SYM1-2,TP1-20,TP29-48,U1-4,U6-12,Y1",
     "variants": [
       {
         "name": "JLCPCB"
@@ -692,68 +726,32 @@
   },
   "sheets": [
     [
-      "a2da42fd-1bb3-4c85-aaa9-b8335e514b4c",
-      "HP"
+      "4b4cf3aa-c94c-4150-b9c5-35049cd71136",
+      "power-pcb"
     ],
     [
-      "8b853752-5acc-4057-82c8-421fe0d7dfca",
+      "7d59fd70-1fff-4c9c-ae77-583b08aef567",
+      "STM32 Base Layout"
+    ],
+    [
+      "1b53d9a2-d601-49e6-8dd5-c533e891a127",
       "Relay Board"
     ],
     [
-      "851c5cd2-1309-4a0e-9115-1e90ed7ea4bc",
-      "Battery sensing"
+      "4fa3a345-be46-4633-8a78-edcbd88dbbde",
+      "Battery Sensing"
     ],
     [
-      "3115e9c2-10fc-4176-a8cb-d4aa36d9fdbb",
+      "8fb4f303-6015-43c7-8ed5-184ae7a46e4e",
       "Auxiliary Battery I-V Sensing"
-    ],
-    [
-      "45dac330-796e-48e3-9126-3eeb495db400",
-      "Storage Battery I-V Sensing"
-    ],
-    [
-      "932a183c-b125-402c-b459-57891ff47597",
-      "relay-board"
-    ],
-    [
-      "5e0eb3e2-27fc-4da9-86d2-32e26687d14d",
-      "Auxiliary Battery Switch"
-    ],
-    [
-      "cb3a7ee7-e665-4c9a-9bf8-ed65014acb40",
-      "BOP Switch"
-    ],
-    [
-      "e0f0ffc3-53a6-473b-a231-7750248f5c6d",
-      "Braking Resistor Switch"
-    ],
-    [
-      "022d4bc8-5b42-4228-a8d2-41ea1b55e601",
-      "MPPT Precharge Stage 1"
-    ],
-    [
-      "bc863848-e0be-494d-8a15-fb6ceda67626",
-      "MPPT Precharge Stage 2"
-    ],
-    [
-      "ddd6d335-1a45-48b2-b845-9019cf7e18dc",
-      "Motor Precharge Stage 1"
-    ],
-    [
-      "7476539c-6075-48b1-b419-2c5fe9312b22",
-      "Motor Precharge Stage 2"
-    ],
-    [
-      "64938c1e-e46a-4932-9f55-321fbc55ce81",
-      "Storage Battery Switch"
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Guillaume Chénier",
-    "CONTRIBUTORS": "Eliot F., Wilfred P.",
+    "AUTHOR": "Eliot F., Gabriel S.",
+    "CONTRIBUTORS": "Lusser M., Guillaume C.",
     "PROJECT_CODE": "TEM.00",
     "PROJECT_NAME": "STM32 PCB Template",
-    "REVIEWERS": "Eliot F."
+    "REVIEWERS": "Eliot F., Gabriel S."
   },
   "tuning_profiles": {
     "meta": {
