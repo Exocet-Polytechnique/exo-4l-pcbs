@@ -7040,20 +7040,12 @@
 		(uuid "106af65c-47b2-4c8f-bc50-657ff6a95bdd")
 	)
 	(no_connect
-		(at 110.49 172.72)
-		(uuid "18538b67-ad8e-4d42-9c1a-2ffda1df16c4")
-	)
-	(no_connect
 		(at 110.49 157.48)
 		(uuid "18b7142c-921b-4b8f-8b4d-678404237f7e")
 	)
 	(no_connect
 		(at 110.49 165.1)
 		(uuid "3b60faf8-3d7c-49fd-a82d-ec169322e11e")
-	)
-	(no_connect
-		(at 110.49 121.92)
-		(uuid "47eb5824-d12c-4379-9912-60f552dfacb6")
 	)
 	(no_connect
 		(at 110.49 149.86)
@@ -7076,10 +7068,6 @@
 		(uuid "6e3b5dff-f77c-4fe7-a0b3-60f86ab9d3d9")
 	)
 	(no_connect
-		(at 110.49 116.84)
-		(uuid "791cc224-06b1-4a3c-8caa-eb1c5a1dde2a")
-	)
-	(no_connect
 		(at 74.93 139.7)
 		(uuid "79f32e74-56bb-44e2-b4b9-d51b8f9df71d")
 	)
@@ -7090,10 +7078,6 @@
 	(no_connect
 		(at 110.49 154.94)
 		(uuid "80f66905-2680-437b-9ebf-f249260804ab")
-	)
-	(no_connect
-		(at 110.49 119.38)
-		(uuid "aeb3a1f3-1c00-467d-bc05-e399b92ce6b8")
 	)
 	(no_connect
 		(at 110.49 177.8)
@@ -7112,16 +7096,8 @@
 		(uuid "d32138a3-d970-4b15-b62c-c00b0310d344")
 	)
 	(no_connect
-		(at 110.49 167.64)
-		(uuid "f4253a46-21be-4f99-bd2d-b4dbf34efb8d")
-	)
-	(no_connect
 		(at 110.49 175.26)
 		(uuid "f74ac9d0-8b88-4698-a65d-869cf62facef")
-	)
-	(no_connect
-		(at 110.49 170.18)
-		(uuid "f8acf655-0fde-4ee0-b086-e5439161756e")
 	)
 	(no_connect
 		(at 74.93 152.4)
@@ -7339,6 +7315,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfc48e0-e801-483e-9c4d-83108eca43da")
+	)
+	(wire
+		(pts
 			(xy 64.77 101.6) (xy 74.93 101.6)
 		)
 		(stroke
@@ -7529,6 +7515,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3854505b-5862-41ce-894a-7dd35c4248ed")
+	)
+	(wire
+		(pts
 			(xy 247.65 127) (xy 252.73 127)
 		)
 		(stroke
@@ -7686,6 +7682,16 @@
 			(type default)
 		)
 		(uuid "4d93432f-bcc5-422f-ba68-2fb40864c194")
+	)
+	(wire
+		(pts
+			(xy 110.49 167.64) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbfa84e-b2ae-4521-b45f-dfc29cc94492")
 	)
 	(wire
 		(pts
@@ -8069,6 +8075,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 172.72) (xy 113.03 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817c6e16-a2b6-44db-909f-02aabb0e544b")
+	)
+	(wire
+		(pts
 			(xy 232.41 45.72) (xy 218.44 45.72)
 		)
 		(stroke
@@ -8286,6 +8302,16 @@
 			(type default)
 		)
 		(uuid "9e2052db-4078-4fd5-8671-6e23903e1a87")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e352947-81ac-422c-9e1a-68069bc3ea06")
 	)
 	(wire
 		(pts
@@ -8576,6 +8602,16 @@
 			(type default)
 		)
 		(uuid "c42f427a-adeb-48ef-b459-eb0675e55436")
+	)
+	(wire
+		(pts
+			(xy 110.49 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6133c0f-36e7-40c3-87a8-0f22704162ee")
 	)
 	(wire
 		(pts
@@ -9307,6 +9343,72 @@
 		)
 		(uuid "e7922f2f-4f6f-4ca1-9c8e-2aa670ba0006")
 	)
+	(hierarchical_label "PB12"
+		(shape output)
+		(at 113.03 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1be582cc-9950-422d-9d09-4a6b21cea0b8")
+	)
+	(hierarchical_label "PA9"
+		(shape input)
+		(at 113.03 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32b457a3-4ad8-4681-b5a5-2ec5369d9077")
+	)
+	(hierarchical_label "PA10"
+		(shape input)
+		(at 113.03 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37bcfff0-c00a-4840-ac6a-075b7ae8fbfd")
+	)
+	(hierarchical_label "PB11"
+		(shape output)
+		(at 113.03 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db5e0d8b-e414-4d76-94c8-9d441727911c")
+	)
+	(hierarchical_label "PB13"
+		(shape output)
+		(at 113.03 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eef04aef-e02c-4ce5-a949-fb49dc6d4cd4")
+	)
+	(hierarchical_label "PA8"
+		(shape input)
+		(at 113.03 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f28a8048-126c-44e9-8af1-9fec2627fff1")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 157.48 152.4 0)
@@ -9377,7 +9479,7 @@
 			(uuid "1aa3f6ce-416e-4ccf-8670-1f773c43a84e")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR035")
 					(unit 1)
@@ -9455,7 +9557,7 @@
 			(uuid "6fcc2dfb-67cc-4ff0-82cf-a6e0decaafa7")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR024")
 					(unit 1)
@@ -9533,7 +9635,7 @@
 			(uuid "857d6e9a-3885-4d99-b1a3-5767cdb0fd60")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR023")
 					(unit 1)
@@ -9611,7 +9713,7 @@
 			(uuid "4d37bc43-0adb-4708-97bf-213e526b61e8")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR033")
 					(unit 1)
@@ -9713,7 +9815,7 @@
 			(uuid "49a16526-2599-4e7d-b5ca-e84957c92b14")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP3")
 					(unit 1)
@@ -9795,7 +9897,7 @@
 			(uuid "f6ad1ac9-f07b-49d0-b1d8-d61cd513ef5f")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR036")
 					(unit 1)
@@ -9873,7 +9975,7 @@
 			(uuid "4bd4f0ad-0de1-43b2-8d4e-680c8964b202")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR031")
 					(unit 1)
@@ -9975,7 +10077,7 @@
 			(uuid "a3de7018-9df3-425e-863e-a59cc20b5655")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP1")
 					(unit 1)
@@ -10053,7 +10155,7 @@
 			(uuid "cf42ebcd-d39a-457f-b43e-204335e2986d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR037")
 					(unit 1)
@@ -10131,7 +10233,7 @@
 			(uuid "abd58d02-cf85-4dee-898c-b15fb4c360ef")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP10")
 					(unit 1)
@@ -10209,7 +10311,7 @@
 			(uuid "506daae4-c3f7-4ea4-bb20-7d99056cd9ac")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#FLG01")
 					(unit 1)
@@ -10313,7 +10415,7 @@
 			(uuid "1c20629b-afd8-47bb-84d8-2db3eb485c0c")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C3")
 					(unit 1)
@@ -10398,7 +10500,7 @@
 			(uuid "5c7d3b2b-6324-4a49-ae4c-67428f1a38ba")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR014")
 					(unit 1)
@@ -10492,7 +10594,7 @@
 			(uuid "3a4b96c5-2bd0-422c-b48a-a599296dac20")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U2")
 					(unit 1)
@@ -10573,7 +10675,7 @@
 			(uuid "3a45284c-f96c-408c-889b-1f107aa6a01e")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR012")
 					(unit 1)
@@ -10651,7 +10753,7 @@
 			(uuid "6c05ae2d-4cad-4a3a-83bf-4b3d906a19cb")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR08")
 					(unit 1)
@@ -10727,7 +10829,7 @@
 			(uuid "c8c23c99-0a41-4a45-bd06-4c2643343b32")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "H4")
 					(unit 1)
@@ -11028,7 +11130,7 @@
 			(uuid "a3b13aea-9a47-4d5f-a14a-c1493b8e75ff")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U4")
 					(unit 1)
@@ -11138,7 +11240,7 @@
 			(uuid "b8984a61-1325-4160-9228-30dcfb10d608")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP6")
 					(unit 1)
@@ -11224,7 +11326,7 @@
 			(uuid "fb3e4063-23f2-4718-8626-d5e3191d9fd6")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "JP2")
 					(unit 1)
@@ -11322,7 +11424,7 @@
 			(uuid "f21c13ee-50d0-4fa6-816d-102787f75975")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "J1")
 					(unit 1)
@@ -11402,7 +11504,7 @@
 			(uuid "9f02cfe8-6dc3-4ea1-8032-311a650a9c3d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "H1")
 					(unit 1)
@@ -11504,7 +11606,7 @@
 			(uuid "3db98c72-7b1a-44ab-8ff9-e706a092ec9d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C13")
 					(unit 1)
@@ -11589,7 +11691,7 @@
 			(uuid "a9ad5939-dd16-4148-8fc8-1da3a6eb7343")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR034")
 					(unit 1)
@@ -11667,7 +11769,7 @@
 			(uuid "2c5a1c06-9b20-43da-b4ed-18ead88afccd")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR02")
 					(unit 1)
@@ -11745,7 +11847,7 @@
 			(uuid "fbf25212-0cc4-49bd-b02a-e6ce6ffb1518")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP11")
 					(unit 1)
@@ -11846,7 +11948,7 @@
 			(uuid "1662208a-2fc9-4d58-9895-90c547ca739a")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C16")
 					(unit 1)
@@ -11931,7 +12033,7 @@
 			(uuid "cead6407-8baa-4174-aaba-1a3b10f5d4f2")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR016")
 					(unit 1)
@@ -12009,7 +12111,7 @@
 			(uuid "d52d7f1a-3d0e-448d-99e7-f03b81037407")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR039")
 					(unit 1)
@@ -12113,7 +12215,7 @@
 			(uuid "7c364670-c9e1-46c1-92ac-74041964faa5")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R1")
 					(unit 1)
@@ -12222,7 +12324,7 @@
 			(uuid "0fd373d4-9a55-49f6-a4a4-c09714b17e83")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C11")
 					(unit 1)
@@ -12307,7 +12409,7 @@
 			(uuid "87cf72fc-195a-4b65-993d-1d7023fc58e1")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR025")
 					(unit 1)
@@ -12411,7 +12513,7 @@
 			(uuid "95c7634d-5cc4-43d2-96ea-b51a98a3babd")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R3")
 					(unit 1)
@@ -12496,7 +12598,7 @@
 			(uuid "cb4dd4ce-5db3-4311-8570-4f89cc90837d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR010")
 					(unit 1)
@@ -12576,7 +12678,7 @@
 			(uuid "c3464568-103c-4e12-9625-e53ccf5fc9f4")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "JP1")
 					(unit 1)
@@ -12668,7 +12770,7 @@
 			(uuid "4b8d2f6a-8f11-4205-a143-52fd11a57c1b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "F2")
 					(unit 1)
@@ -12779,7 +12881,7 @@
 			(uuid "0b47a66f-e4b2-440c-b473-9f2fbd5b9645")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "Q1")
 					(unit 1)
@@ -12887,7 +12989,7 @@
 			(uuid "e4f8c4ca-aabd-444c-9691-a11a83e7201c")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C8")
 					(unit 1)
@@ -12985,7 +13087,7 @@
 			(uuid "ce518a80-2154-4ebc-8e82-1fd2c9215984")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "SW1")
 					(unit 1)
@@ -13104,7 +13206,7 @@
 			(uuid "3d29882f-6c08-42c8-9bbf-7aab62780b9d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D5")
 					(unit 1)
@@ -13234,7 +13336,7 @@
 			(uuid "f1d3ca46-11a6-4d0d-a6ce-3729f7b9291b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U3")
 					(unit 1)
@@ -13342,7 +13444,7 @@
 			(uuid "900e1f6c-4e48-493a-a7b7-fca9aa4d80b3")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C17")
 					(unit 1)
@@ -13441,7 +13543,7 @@
 			(uuid "eab653b7-4c2c-4a43-be9a-aa20815b3d70")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D3")
 					(unit 1)
@@ -13548,7 +13650,7 @@
 			(uuid "0df5b1c5-0c97-4cd7-a328-0aaee94ec89a")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "FB1")
 					(unit 1)
@@ -13657,7 +13759,7 @@
 			(uuid "1e26732d-e3a7-431c-9e47-7ff1b0d436ed")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R8")
 					(unit 1)
@@ -13766,7 +13868,7 @@
 			(uuid "c91b249c-9e53-47d6-81df-6d480c675388")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP2")
 					(unit 1)
@@ -13844,7 +13946,7 @@
 			(uuid "be88f82a-7803-4f54-a59d-aa4414f70aeb")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR07")
 					(unit 1)
@@ -13920,7 +14022,7 @@
 			(uuid "aaeed05e-0fc2-437c-9db5-a49ca53a986d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "H2")
 					(unit 1)
@@ -13997,7 +14099,7 @@
 			(uuid "b46e0112-eae7-4f99-ae78-191967a45e23")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#FLG02")
 					(unit 1)
@@ -14075,7 +14177,7 @@
 			(uuid "a93be145-53ec-435f-89de-8c0d72dfb76c")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR04")
 					(unit 1)
@@ -14152,7 +14254,7 @@
 			(uuid "dc3f6aff-073c-40d0-bb10-d6ea56819e18")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR027")
 					(unit 1)
@@ -14267,7 +14369,7 @@
 			(uuid "90de7e05-ff85-49d1-a23a-ba2868bede0b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D2")
 					(unit 1)
@@ -14352,7 +14454,7 @@
 			(uuid "8acb5b6d-186d-4a04-81e9-e8c3d43b1ff5")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP9")
 					(unit 1)
@@ -14456,7 +14558,7 @@
 			(uuid "a05dd12d-c488-460c-90c6-fcc68a843a82")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C19")
 					(unit 1)
@@ -14565,7 +14667,7 @@
 			(uuid "23219b13-58ef-4993-a841-73baf3d5776d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R7")
 					(unit 1)
@@ -14650,7 +14752,7 @@
 			(uuid "ab31ccbd-c64e-4a86-9bdf-6a23884ee5a2")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP12")
 					(unit 1)
@@ -14752,7 +14854,7 @@
 			(uuid "a846b49d-9919-4862-a652-dc52b3cb4248")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C1")
 					(unit 1)
@@ -14858,7 +14960,7 @@
 			(uuid "493170fe-8613-49df-a477-51bbecdf9b38")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP5")
 					(unit 1)
@@ -14940,7 +15042,7 @@
 			(uuid "49b28006-7d33-48d5-b5ba-d23510b130c7")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP7")
 					(unit 1)
@@ -15029,7 +15131,7 @@
 			(uuid "69fd9c59-e366-4754-94b8-882568a4bc3f")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR018")
 					(unit 1)
@@ -15131,7 +15233,7 @@
 			(uuid "aeb105bd-9d30-4df5-9df2-2db402d79ef9")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C9")
 					(unit 1)
@@ -15216,7 +15318,7 @@
 			(uuid "193c8d3c-b082-4025-925c-4792e917b26c")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP18")
 					(unit 1)
@@ -15318,7 +15420,7 @@
 			(uuid "e336a7ed-d380-42f1-97af-398177c57d68")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C14")
 					(unit 1)
@@ -15403,7 +15505,7 @@
 			(uuid "e7d658ef-c2f3-4af1-87f6-f05ebed02b6a")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP20")
 					(unit 1)
@@ -15505,7 +15607,7 @@
 			(uuid "5eb9a045-7f27-4391-a33c-810bc65da76b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "Y1")
 					(unit 1)
@@ -15590,7 +15692,7 @@
 			(uuid "d5fbb256-2bda-40da-83d4-a7e7d4ac7d73")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR020")
 					(unit 1)
@@ -15685,7 +15787,7 @@
 			(uuid "b3cfd228-2435-4b80-903d-6cfbcc68ae80")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U1")
 					(unit 1)
@@ -15790,7 +15892,7 @@
 			(uuid "a0bc05b6-b756-499e-b0ee-739b77644e8e")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C18")
 					(unit 1)
@@ -15875,7 +15977,7 @@
 			(uuid "860873fe-517a-4c8c-9518-5c0ed903f955")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR032")
 					(unit 1)
@@ -15977,7 +16079,7 @@
 			(uuid "50ac5bfa-2d03-4486-94e1-ae825df4b11b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C2")
 					(unit 1)
@@ -16060,7 +16162,7 @@
 			(uuid "f1cae107-bbb0-4dce-8a63-235e24e2064d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "H3")
 					(unit 1)
@@ -16163,7 +16265,7 @@
 			(uuid "89942294-5c8e-4e1f-a884-033f65b98abf")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C5")
 					(unit 1)
@@ -16309,7 +16411,7 @@
 			(uuid "ad55f960-2fde-4e6a-bab5-85988756af69")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "J2")
 					(unit 1)
@@ -16409,7 +16511,7 @@
 			(uuid "646991f5-c142-435d-80f2-0895c03504af")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D4")
 					(unit 1)
@@ -16505,7 +16607,7 @@
 			(uuid "916690bf-5097-4c96-8198-70544dc66095")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D1")
 					(unit 1)
@@ -16587,7 +16689,7 @@
 			(uuid "bf9385c1-d3d9-4a6c-9457-3ea77371ac68")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR022")
 					(unit 1)
@@ -16665,7 +16767,7 @@
 			(uuid "d27db73a-0c81-4704-9aa8-18835d2536bf")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR038")
 					(unit 1)
@@ -16743,7 +16845,7 @@
 			(uuid "8f0d83cc-dac9-4867-b710-251e1c9daf62")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR06")
 					(unit 1)
@@ -16821,7 +16923,7 @@
 			(uuid "ee1a4725-6160-4445-b913-bca74b072d0f")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR013")
 					(unit 1)
@@ -16899,7 +17001,7 @@
 			(uuid "df49565d-e083-4a61-a523-06be7c5c5f3b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR09")
 					(unit 1)
@@ -16977,7 +17079,7 @@
 			(uuid "87e1eb7e-7e69-4e8d-acd6-f60dfcc08186")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP8")
 					(unit 1)
@@ -17078,7 +17180,7 @@
 			(uuid "aeb25797-6b86-42de-8244-f591c0fb6bdb")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R6")
 					(unit 1)
@@ -17189,7 +17291,7 @@
 			(uuid "660487ca-b05e-4036-b0a5-e0c73e7eeb44")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C4")
 					(unit 1)
@@ -17295,7 +17397,7 @@
 			(uuid "6c570967-a62b-48e4-930c-3eaa01d92570")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP4")
 					(unit 1)
@@ -17385,7 +17487,7 @@
 			(uuid "21595fa4-3934-4a28-8747-9034cbaf05a2")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "F1")
 					(unit 1)
@@ -17481,7 +17583,7 @@
 			(uuid "9f42c6a5-08db-499c-a75b-6192440aa9f6")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C6")
 					(unit 1)
@@ -17589,7 +17691,7 @@
 			(uuid "f9146fab-6371-4e59-b1e9-be539abbddac")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R5")
 					(unit 1)
@@ -17674,7 +17776,7 @@
 			(uuid "c05e0f45-34a7-4dab-89fb-2ef96e01c28d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP15")
 					(unit 1)
@@ -17752,7 +17854,7 @@
 			(uuid "a56da0b8-1667-4d37-b1ed-51438ed756d4")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR028")
 					(unit 1)
@@ -17830,7 +17932,7 @@
 			(uuid "23342a88-eff0-48d6-b49d-305dbec5c437")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR03")
 					(unit 1)
@@ -17934,7 +18036,7 @@
 			(uuid "04e4a74c-1e07-48b7-ade1-b66ac2b90e4f")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C20")
 					(unit 1)
@@ -18019,7 +18121,7 @@
 			(uuid "6d386929-b8d8-42bf-ab35-5dc28b55663f")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP14")
 					(unit 1)
@@ -18121,7 +18223,7 @@
 			(uuid "51331376-4f0f-45d6-beaa-f1b7f9ddba0a")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R2")
 					(unit 1)
@@ -18230,7 +18332,7 @@
 			(uuid "598f9adc-a922-4659-bfdb-8eb12832b8dc")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R4")
 					(unit 1)
@@ -18315,7 +18417,7 @@
 			(uuid "0c06c3f6-040e-4e2c-b94d-2edff9bcfa03")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR030")
 					(unit 1)
@@ -18393,7 +18495,7 @@
 			(uuid "13cf0efd-2b16-435b-a48a-f10a10275d14")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP16")
 					(unit 1)
@@ -18471,7 +18573,7 @@
 			(uuid "350ce64f-2670-4475-ab59-352beb889ef2")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP17")
 					(unit 1)
@@ -18575,7 +18677,7 @@
 			(uuid "d131893f-b0c1-41ca-9cd0-206130ac557c")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C7")
 					(unit 1)
@@ -18660,7 +18762,7 @@
 			(uuid "b6647f75-8d01-436f-a5fb-cd9841f968e2")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR019")
 					(unit 1)
@@ -18762,7 +18864,7 @@
 			(uuid "0d45a57a-95fe-4d8b-aff5-6411aca8cba7")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C10")
 					(unit 1)
@@ -18847,7 +18949,7 @@
 			(uuid "989c6ce6-fe55-4afd-a7ce-7699d0e2efad")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR017")
 					(unit 1)
@@ -18925,7 +19027,7 @@
 			(uuid "a422fbd9-f894-4344-b16c-c1196d895b00")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR021")
 					(unit 1)
@@ -19003,7 +19105,7 @@
 			(uuid "c2db840a-16b3-4e40-a973-0943e55c643c")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR05")
 					(unit 1)
@@ -19105,7 +19207,7 @@
 			(uuid "acfacbf1-b93e-4f93-94b1-d457f3e281ab")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C12")
 					(unit 1)
@@ -19190,7 +19292,7 @@
 			(uuid "f9ff1ac2-a77b-4adb-a733-b6b8c7348e94")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR029")
 					(unit 1)
@@ -19268,7 +19370,7 @@
 			(uuid "d7d6c108-f10d-408f-bee9-9b17d9dc2e7b")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR026")
 					(unit 1)
@@ -19346,7 +19448,7 @@
 			(uuid "78075561-ac38-40d4-94f3-d057c06b5927")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP13")
 					(unit 1)
@@ -19439,7 +19541,7 @@
 			(uuid "f09dfc69-3cb5-41cd-895f-173848c4f1c7")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D6")
 					(unit 1)
@@ -19521,7 +19623,7 @@
 			(uuid "bc0a7cda-413a-4a21-bbc5-d7b002fb2fb9")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP19")
 					(unit 1)
@@ -19599,7 +19701,7 @@
 			(uuid "25349aa6-f77c-4021-8004-fcfa8f2d0418")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR01")
 					(unit 1)
@@ -19677,7 +19779,7 @@
 			(uuid "d6db726c-f0c0-44b5-a0f9-20f10e175ae9")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR015")
 					(unit 1)
@@ -19755,7 +19857,7 @@
 			(uuid "a94b7c75-1cd8-4157-8e87-4ffc1877b6e4")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#PWR011")
 					(unit 1)
@@ -19857,7 +19959,7 @@
 			(uuid "e3009360-b6ce-43c5-8238-bd388619d08d")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C15")
 					(unit 1)
@@ -19943,7 +20045,7 @@
 			(uuid "52b458fe-9b0b-45e5-9a5e-fa8369ee8bc0")
 		)
 		(instances
-			(project "template"
+			(project "cockpit-pcb"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "#FLG03")
 					(unit 1)
