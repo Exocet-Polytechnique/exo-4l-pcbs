@@ -6340,12 +6340,6 @@
 		(uuid "38203cc0-4535-4b99-aa1f-79e348f207bd")
 	)
 	(junction
-		(at 160.02 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "383a299a-7703-4c71-916d-f156b1ac8931")
-	)
-	(junction
 		(at 31.75 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6985,16 +6979,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 160.02 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279ecf6e-3109-4490-a086-feac1f7ed4eb")
-	)
-	(wire
-		(pts
 			(xy 139.7 25.4) (xy 151.13 25.4)
 		)
 		(stroke
@@ -7155,16 +7139,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 25.4) (xy 160.02 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e4c207-92fc-44ae-909e-ad0492e40f90")
-	)
-	(wire
-		(pts
 			(xy 139.7 25.4) (xy 138.43 25.4)
 		)
 		(stroke
@@ -7295,7 +7269,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 25.4) (xy 151.13 25.4)
+			(xy 151.13 25.4) (xy 161.29 25.4)
 		)
 		(stroke
 			(width 0)
@@ -8292,16 +8266,6 @@
 			(type default)
 		)
 		(uuid "c329b026-a5df-4728-a486-13f2fd3acd79")
-	)
-	(wire
-		(pts
-			(xy 160.02 25.4) (xy 161.29 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c555f351-421f-4eca-a1d4-e289a9fb67cc")
 	)
 	(wire
 		(pts
@@ -14860,110 +14824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 160.02 30.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7eadc630-1b93-4fe0-bf1f-498b03f5c568")
-		(property "Reference" "D3"
-			(at 162.56 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ5338B"
-			(at 162.56 31.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 160.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 160.02 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C19077493"
-			(at 160.02 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Net Label" ""
-			(at 160.02 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a9cf265-a82f-4872-92a6-b860ade42433")
-		)
-		(pin "1"
-			(uuid "6608b5ba-ef3c-4867-8f51-bbaed01b087b")
-		)
-		(instances
-			(project "hat01-rpi"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 101.6 151.13 0)
 		(unit 1)
@@ -16167,84 +16027,6 @@
 			(project "hat01-rpi"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a24e3706-67a9-4ecf-a5ce-b33661b902d6")
-		(property "Reference" "#PWR01"
-			(at 160.02 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1e0b386-e39b-48a1-a7b8-b7328f91cbbf")
-		)
-		(instances
-			(project "hat01-rpi"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
