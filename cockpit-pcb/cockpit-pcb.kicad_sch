@@ -3338,7 +3338,7 @@
 				)
 			)
 		)
-		(property "MFR" "Molex"
+		(property "MFR" "TE Connectivity Erni"
 			(at 27.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3349,7 +3349,7 @@
 				)
 			)
 		)
-		(property "MPN" "0705430001"
+		(property "MPN" "294645-E"
 			(at 27.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4088,7 +4088,7 @@
 				)
 			)
 		)
-		(property "MFR" "Molex"
+		(property "MFR" "TE Connectivity Erni"
 			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4099,7 +4099,7 @@
 				)
 			)
 		)
-		(property "MPN" "0705430001"
+		(property "MPN" "294645-E"
 			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4770,7 +4770,7 @@
 				)
 			)
 		)
-		(property "MFR" "Molex"
+		(property "MFR" "TE Connectivity Erni"
 			(at 58.42 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4781,7 +4781,7 @@
 				)
 			)
 		)
-		(property "MPN" "0705430001"
+		(property "MPN" "294645-E"
 			(at 58.42 52.07 0)
 			(hide yes)
 			(show_name no)
