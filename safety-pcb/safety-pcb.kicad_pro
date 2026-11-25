@@ -179,7 +179,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -191,7 +190,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,7 +201,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -505,11 +502,16 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Exocet"
+    ],
+    "pinned_symbol_libs": [
+      "Exocet",
+      "exocet_temporaire"
+    ]
   },
   "meta": {
-    "filename": "template.kicad_pro",
+    "filename": "safety-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,8 +539,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -662,7 +664,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -702,12 +704,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "template.kicad_sch",
-        "name": "template",
+        "filename": "safety-pcb.kicad_sch",
+        "name": "safety-pcb",
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR1-44,#SYM1-2,C1-20,D1-6,F1-2,FB1,H1-4,J1-2,JP1-2,Q1,R1-8,SW1,SYM1-2,TP1-20,U1-4,Y1",
+    "used_designators": "C21-27,D7-15,R9-37,J3-7,JP3,F3,TP21-47,U5-10,Q2-9",
     "variants": [
       {
         "name": "JLCPCB"
@@ -717,11 +719,19 @@
   "sheets": [
     [
       "4b4cf3aa-c94c-4150-b9c5-35049cd71136",
-      "template"
+      "safety-pcb"
     ],
     [
       "7d59fd70-1fff-4c9c-ae77-583b08aef567",
       "STM32 Base Layout"
+    ],
+    [
+      "bdaef275-ff46-44af-a864-07824f40e762",
+      "safety systems"
+    ],
+    [
+      "9c430661-8db8-4027-b1be-2c88059a0fb6",
+      "IMD Input"
     ]
   ],
   "text_variables": {

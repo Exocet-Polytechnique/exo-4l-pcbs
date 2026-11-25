@@ -8099,7 +8099,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "006cc253-9269-4af5-8883-e77031b90fc4")
-		(property "Reference" "R64"
+		(property "Reference" "R31"
 			(at 234.95 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,9 +8194,9 @@
 			(uuid "78a172d3-3207-4ca0-ba65-e22f4b5fb34b")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R64")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R31")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -8217,7 +8217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "016ef599-792e-474e-ba7b-25c7abbd8353")
-		(property "Reference" "J17"
+		(property "Reference" "J6"
 			(at 252.73 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8330,9 +8330,9 @@
 			(uuid "1d9a95f1-02ce-4330-a0c8-a3c448a3f59e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "J17")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "J6")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -8413,8 +8413,8 @@
 			(uuid "ad903074-3859-45c4-a439-630c3f81e34e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -8433,7 +8433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d6c6e3-c955-4657-a86f-86c3fd838aa1")
-		(property "Reference" "R63"
+		(property "Reference" "R30"
 			(at 217.17 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,9 +8528,9 @@
 			(uuid "248f6043-60d3-492e-8415-5bb21edc5d68")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R63")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R30")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -8551,7 +8551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08175259-de9b-4a44-9f19-956fb9969151")
-		(property "Reference" "U28"
+		(property "Reference" "U5"
 			(at 271.78 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,9 +8686,9 @@
 			(uuid "5f48d6d2-8060-46d3-a180-49d2f456465c")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U28")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U5")
 					(unit 3)
 					(variant
 						(name "JLCPCB")
@@ -8709,7 +8709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a95f403-b052-4e37-9d96-9b2a5b1f8b0a")
-		(property "Reference" "C71"
+		(property "Reference" "C26"
 			(at 30.48 177.165 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,9 +8802,9 @@
 			(uuid "3db0c1db-e058-44fd-b923-de7d2b50d394")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C71")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "C26")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -8825,7 +8825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aef0192-233c-489e-b63a-22319c2991af")
-		(property "Reference" "D15"
+		(property "Reference" "D9"
 			(at 27.94 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,9 +8953,9 @@
 			(uuid "5c217b22-85f7-4790-99ad-8122b0e89b28")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "D15")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "D9")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -8976,7 +8976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b052331-5dbb-4e78-9dbc-64eefb078547")
-		(property "Reference" "R44"
+		(property "Reference" "R11"
 			(at 167.64 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,9 +9069,9 @@
 			(uuid "878f975d-75f2-49a3-a9d5-aafed277e3f5")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R44")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R11")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9092,7 +9092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d715ec2-86b6-4571-bab4-20df39c2609d")
-		(property "Reference" "TP87"
+		(property "Reference" "TP32"
 			(at 154.94 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,9 +9173,9 @@
 			(uuid "6886f5e2-479a-4808-b5f4-fe91d4a25cce")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP87")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP32")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9255,8 +9255,8 @@
 			(uuid "0a767a89-fa6d-4c26-865d-aae964ab6b5d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0120")
 					(unit 1)
 				)
@@ -9333,8 +9333,8 @@
 			(uuid "b73f95e8-c47a-47db-a233-0f06266a12fd")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0123")
 					(unit 1)
 				)
@@ -9353,7 +9353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1005de39-3807-4775-b8c8-39d504b65f6e")
-		(property "Reference" "TP96"
+		(property "Reference" "TP41"
 			(at 72.39 158.2419 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9434,9 +9434,9 @@
 			(uuid "2decfe11-f728-41a7-9ec9-216b73c41bb7")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP96")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP41")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9457,7 +9457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "117106d0-ff87-4ad9-a633-23c01c9e4c44")
-		(property "Reference" "J14"
+		(property "Reference" "J3"
 			(at 21.59 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,9 +9563,9 @@
 			(uuid "d55cb490-55a4-4431-8bd3-e318a413045a")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "J14")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "J3")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9586,7 +9586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15ea4d0f-46e9-4995-a62b-c0780527c002")
-		(property "Reference" "R51"
+		(property "Reference" "R18"
 			(at 88.9 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,9 +9679,9 @@
 			(uuid "6a341738-e86d-48e9-9ae9-a01cd1c74966")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R51")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R18")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9760,8 +9760,8 @@
 			(uuid "99114e02-b50c-43b2-b7a1-8c32bd9893a8")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -9780,7 +9780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18cfb6dd-bcb2-4846-8c71-1a54af9748e5")
-		(property "Reference" "R50"
+		(property "Reference" "R17"
 			(at 59.055 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9875,9 +9875,9 @@
 			(uuid "dd0b0b91-e3f7-4537-bea2-dc59f383a010")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R50")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R17")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -9898,7 +9898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19fbf4b4-fe2e-485f-a806-3b04dddc4c59")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 154.94 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,9 +10038,9 @@
 			(uuid "47a6a3d4-55f2-476f-95b1-3b8348d8aadc")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U29")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U6")
 					(unit 2)
 					(variant
 						(name "JLCPCB")
@@ -10120,8 +10120,8 @@
 			(uuid "8ced8a81-c355-4d49-a94e-a9ee99f2c371")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0107")
 					(unit 1)
 				)
@@ -10198,8 +10198,8 @@
 			(uuid "a6231101-362f-45a8-8afd-58dd332a0c04")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0127")
 					(unit 1)
 				)
@@ -10217,7 +10217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c1de025-50f6-494a-8b78-8cd7b5401996")
-		(property "Reference" "U28"
+		(property "Reference" "U5"
 			(at 228.6 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,9 +10350,9 @@
 			(uuid "5f48d6d2-8060-46d3-a180-49d2f456465d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U28")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U5")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -10373,7 +10373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c706a5a-cb7e-43de-a1d3-6754033d305d")
-		(property "Reference" "U32"
+		(property "Reference" "U9"
 			(at 53.34 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10519,9 +10519,9 @@
 			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4b")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U32")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U9")
 					(unit 3)
 					(variant
 						(name "JLCPCB")
@@ -10601,8 +10601,8 @@
 			(uuid "171683b5-e38d-43fc-9f7d-c0f266985167")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0126")
 					(unit 1)
 				)
@@ -10680,8 +10680,8 @@
 			(uuid "f0831644-9f0e-454a-8c0d-aafa86609c91")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -10700,7 +10700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20699394-3b45-463b-a218-cdff71794b64")
-		(property "Reference" "TP97"
+		(property "Reference" "TP42"
 			(at 48.26 161.7979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10781,9 +10781,9 @@
 			(uuid "25e4e0a7-e11b-421f-912c-fe3a4b735c30")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP97")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP42")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -10803,7 +10803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22c1666c-9a20-4b56-adba-adf7c01fa937")
-		(property "Reference" "R59"
+		(property "Reference" "R26"
 			(at 121.92 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10898,9 +10898,9 @@
 			(uuid "1d47065f-5eec-4d10-80c4-a8c51c75edd6")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R59")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R26")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -10979,8 +10979,8 @@
 			(uuid "547ac269-9bba-4f57-9e69-560701cd11fb")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0119")
 					(unit 1)
 				)
@@ -10998,7 +10998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "242eb322-bfa0-4fb9-b12c-052764f4803d")
-		(property "Reference" "R57"
+		(property "Reference" "R24"
 			(at 101.6 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11091,9 +11091,9 @@
 			(uuid "3c2654a8-cc8a-4135-8786-4893ae87fe84")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R57")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R24")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -11173,8 +11173,8 @@
 			(uuid "af99e653-abc9-4da3-b19a-a56a1b838f46")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0130")
 					(unit 1)
 				)
@@ -11252,8 +11252,8 @@
 			(uuid "a2be8d6b-44f0-4608-a056-8b7726592aaf")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -11330,8 +11330,8 @@
 			(uuid "2d988708-187c-4f7f-b88f-1495e1679577")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0125")
 					(unit 1)
 				)
@@ -11350,7 +11350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f95b5cc-2dd5-49a2-badb-be5c4ba5224e")
-		(property "Reference" "TP95"
+		(property "Reference" "TP40"
 			(at 20.828 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11451,9 +11451,9 @@
 			(uuid "0a8edfe5-72ed-4686-9aee-b96cb9729484")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP95")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP40")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -11475,7 +11475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30b85e1c-9d8c-4868-8f8c-5a7aa40a1687")
-		(property "Reference" "R48"
+		(property "Reference" "R15"
 			(at 58.42 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11570,9 +11570,9 @@
 			(uuid "5388fdb3-0be3-4056-84a6-c5e5876c389c")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R48")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R15")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -11593,7 +11593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31191d11-8059-4d55-a2de-40a6b55ac100")
-		(property "Reference" "U32"
+		(property "Reference" "U9"
 			(at 96.52 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,9 +11739,9 @@
 			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4c")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U32")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U9")
 					(unit 2)
 					(variant
 						(name "JLCPCB")
@@ -11763,7 +11763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3479b71e-2605-4aa3-b4f1-f98cf399fbf7")
-		(property "Reference" "C67"
+		(property "Reference" "C22"
 			(at 261.62 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11858,9 +11858,9 @@
 			(uuid "f52a97e1-e661-4c6c-af29-5e74d87005fa")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C67")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "C22")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -11939,8 +11939,8 @@
 			(uuid "3d927fb8-c4dc-4473-932c-ab6b750f52f6")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0105")
 					(unit 1)
 				)
@@ -12018,8 +12018,8 @@
 			(uuid "8d5f04cc-bf5e-4134-91ce-e086844c5f84")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -12037,7 +12037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a546e5a-3bb2-470c-bbf0-15ffe3ec434e")
-		(property "Reference" "U28"
+		(property "Reference" "U5"
 			(at 259.08 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12170,9 +12170,9 @@
 			(uuid "5f48d6d2-8060-46d3-a180-49d2f456465e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U28")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U5")
 					(unit 2)
 					(variant
 						(name "JLCPCB")
@@ -12192,7 +12192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a973308-a6f8-4602-8c56-e5dbc2d9b057")
-		(property "Reference" "R61"
+		(property "Reference" "R28"
 			(at 48.26 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12285,9 +12285,9 @@
 			(uuid "1b19a579-c7b8-4437-9237-b36c5ad0f2a2")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R61")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R28")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -12307,7 +12307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b5f1503-7dd3-49ac-aa67-79fc83270307")
-		(property "Reference" "R68"
+		(property "Reference" "R35"
 			(at 60.96 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12400,9 +12400,9 @@
 			(uuid "98e95d3d-95c7-4d23-97c0-6f14eb11ec99")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R68")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R35")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -12423,7 +12423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d34f677-ec63-4239-a2d6-a7bf600b4719")
-		(property "Reference" "TP85"
+		(property "Reference" "TP30"
 			(at 177.8 80.5181 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12504,9 +12504,9 @@
 			(uuid "179d0b1a-7e14-4b0d-93df-62451d698769")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP85")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP30")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -12527,7 +12527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fe7f155-8170-4ca9-800e-e27acd456cab")
-		(property "Reference" "D16"
+		(property "Reference" "D10"
 			(at 213.36 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12655,9 +12655,9 @@
 			(uuid "1e2a6230-fa97-4e0e-af7f-b01d355fa7ec")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "D16")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "D10")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -12737,8 +12737,8 @@
 			(uuid "e4a9d7a0-47e3-453a-a7a7-029fe9a0f6d6")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0128")
 					(unit 1)
 				)
@@ -12757,7 +12757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a49108-5fce-4bd0-986b-05c482c1cd32")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 170.18 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12897,9 +12897,9 @@
 			(uuid "47a6a3d4-55f2-476f-95b1-3b8348d8aadd")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U29")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U6")
 					(unit 5)
 					(variant
 						(name "JLCPCB")
@@ -12920,7 +12920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55bc90df-6d75-4f14-8ded-38923c882192")
-		(property "Reference" "R56"
+		(property "Reference" "R23"
 			(at 153.67 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13013,9 +13013,9 @@
 			(uuid "504e0c3f-561f-4c2b-9f25-c57e35bdf363")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R56")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R23")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13035,7 +13035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "588bb22a-3a54-453a-ab9f-5a0c3955a196")
-		(property "Reference" "R45"
+		(property "Reference" "R12"
 			(at 177.8 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13128,9 +13128,9 @@
 			(uuid "87b4ec19-3939-4dd0-ae4d-0ab964f00b9e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R45")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R12")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13151,7 +13151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a61ce13-a875-4eaf-b6e1-07387c87b808")
-		(property "Reference" "TP90"
+		(property "Reference" "TP35"
 			(at 100.33 116.3319 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13232,9 +13232,9 @@
 			(uuid "fa8d1c91-2231-4c9e-96ee-bbe7768c6817")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP90")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP35")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13256,7 +13256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3f3a45-5962-48ab-b4c0-d79499dcdf7b")
-		(property "Reference" "TP82"
+		(property "Reference" "TP27"
 			(at 204.47 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13359,9 +13359,9 @@
 			(uuid "1ac19d8b-db7c-47f9-942a-bec58f1a895f")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP82")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP27")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13442,8 +13442,8 @@
 			(uuid "a04d986e-aa11-4ee4-a1de-a2e05677ccfa")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -13462,7 +13462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fad9227-a463-4978-95dd-14a424ee54bc")
-		(property "Reference" "Q7"
+		(property "Reference" "Q8"
 			(at 273.05 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13615,9 +13615,9 @@
 			(uuid "ba8c8210-603f-48a9-be93-2aa4d71305a7")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q7")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q8")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13638,7 +13638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60dbd151-c28c-4759-8515-aba9f9a586d8")
-		(property "Reference" "TP92"
+		(property "Reference" "TP37"
 			(at 43.18 133.8579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13741,9 +13741,9 @@
 			(uuid "f3fd974b-f4fa-4fb2-a373-cd1e7fc353d8")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP92")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP37")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13765,7 +13765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "638b3562-3dc6-425e-abfb-cf27ac3d23d3")
-		(property "Reference" "TP83"
+		(property "Reference" "TP28"
 			(at 149.86 77.9781 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13846,9 +13846,9 @@
 			(uuid "09323d5a-3a46-4975-b3e8-73001a6fc180")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP83")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP28")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13869,7 +13869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "646e5b68-2b90-4b87-a712-fe70b810ac85")
-		(property "Reference" "R53"
+		(property "Reference" "R20"
 			(at 81.28 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13964,9 +13964,9 @@
 			(uuid "7cb2b6bc-63d8-4c71-8ea2-00aa6410e517")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R53")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R20")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13987,7 +13987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "664014ad-4215-4ef3-aa17-0e49e278d413")
-		(property "Reference" "R54"
+		(property "Reference" "R21"
 			(at 120.65 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14082,9 +14082,9 @@
 			(uuid "b5bfdec3-e2d4-4075-a346-2dc20c77502a")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R54")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R21")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14163,8 +14163,8 @@
 			(uuid "b0d374a6-1377-4e0b-bd41-bc7a50abfe3e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0109")
 					(unit 1)
 				)
@@ -14183,7 +14183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "681ef9d3-7956-4829-958d-8d68c4a3062b")
-		(property "Reference" "J15"
+		(property "Reference" "J4"
 			(at 196.85 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14293,9 +14293,9 @@
 			(uuid "06f8edcf-57a4-4508-8e91-18b352e988c9")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "J15")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "J4")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14375,8 +14375,8 @@
 			(uuid "de7ce1ac-7305-4d2b-a124-e01e472ec4ac")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0112")
 					(unit 1)
 				)
@@ -14453,8 +14453,8 @@
 			(uuid "dcc571a0-638b-4ed5-ba48-6a7aa68275f7")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -14472,7 +14472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a31f56b-e64f-4917-bbd3-ddaa57f814db")
-		(property "Reference" "R67"
+		(property "Reference" "R34"
 			(at 153.67 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14565,9 +14565,9 @@
 			(uuid "c6ad906d-def9-4fa3-a01d-93f4585b5002")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R67")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R34")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14588,7 +14588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70c547cd-c026-44bf-b8e2-f46793de1705")
-		(property "Reference" "R60"
+		(property "Reference" "R27"
 			(at 102.87 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14683,9 +14683,9 @@
 			(uuid "6771b55d-875a-47c3-bd33-334a096373e2")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R60")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R27")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14706,7 +14706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70d89331-36bd-4f88-a83d-9bb942b14ce6")
-		(property "Reference" "Q5"
+		(property "Reference" "Q6"
 			(at 64.77 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14859,9 +14859,9 @@
 			(uuid "6729bcf5-faa6-4c1b-a010-bbcb98e69a63")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q5")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q6")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14940,8 +14940,8 @@
 			(uuid "31ee65ec-3984-426b-b4bc-ad0faff51344")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0111")
 					(unit 1)
 				)
@@ -14960,7 +14960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79882011-589c-4e51-892a-9d1a54273c8c")
-		(property "Reference" "TP89"
+		(property "Reference" "TP34"
 			(at 110.998 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,9 +15039,9 @@
 			(uuid "8a0ebdb9-abaa-4bee-9175-4384595ce5a1")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP89")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP34")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15061,7 +15061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aa90d26-b344-465c-854c-1b869714bcf2")
-		(property "Reference" "TP84"
+		(property "Reference" "TP29"
 			(at 111.76 79.2481 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15142,9 +15142,9 @@
 			(uuid "6a5460d4-c281-4c18-909b-1833b300627a")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP84")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP29")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15164,7 +15164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b02ded5-8640-4383-bdbe-04ab49fda7b7")
-		(property "Reference" "F5"
+		(property "Reference" "F3"
 			(at 44.45 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15268,9 +15268,9 @@
 			(uuid "17851922-4acd-40ed-8cd7-0c403fdc249d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "F5")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "F3")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15291,7 +15291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cf66236-985e-404a-a31a-cf2412e5c31e")
-		(property "Reference" "R65"
+		(property "Reference" "R32"
 			(at 25.4 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15384,9 +15384,9 @@
 			(uuid "6ab0de88-8872-4828-8750-0512a330f517")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R65")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R32")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15406,7 +15406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d904794-40d3-4cd7-804e-ba694604b00f")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 138.43 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15546,9 +15546,9 @@
 			(uuid "47a6a3d4-55f2-476f-95b1-3b8348d8aade")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U29")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U6")
 					(unit 4)
 					(variant
 						(name "JLCPCB")
@@ -15629,8 +15629,8 @@
 			(uuid "8fe6ebe9-d841-4525-bb89-e6a38ec26f24")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -15707,8 +15707,8 @@
 			(uuid "83553d36-a2c4-44d9-aefe-3f2d19032327")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0110")
 					(unit 1)
 				)
@@ -15727,7 +15727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81f9f1c9-6b76-4a05-aba6-6bca51a14ed4")
-		(property "Reference" "C68"
+		(property "Reference" "C23"
 			(at 147.32 45.085 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15820,9 +15820,9 @@
 			(uuid "6254e80c-418c-46b2-9300-3a72d2e9ff7e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C68")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "C23")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -15902,8 +15902,8 @@
 			(uuid "e77f009f-10f8-4ca4-ac40-de5c9d8c5a67")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0129")
 					(unit 1)
 				)
@@ -15921,7 +15921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85ab9e52-894c-482f-8884-da05982dce9b")
-		(property "Reference" "R62"
+		(property "Reference" "R29"
 			(at 110.49 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,9 +16014,9 @@
 			(uuid "08bea3b8-55fc-4926-9dce-3d39fcdbc0b6")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R62")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R29")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16037,7 +16037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "889333c1-06d9-4f51-88f3-0470e06c343e")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 171.45 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16190,9 +16190,9 @@
 			(uuid "8bcbbe5d-faa2-4bc4-94a7-c1d873c503cd")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q4")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q5")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16271,8 +16271,8 @@
 			(uuid "16d139e2-59f5-4213-a809-649b724d23d2")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0121")
 					(unit 1)
 				)
@@ -16291,7 +16291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89b332fc-824f-4c1f-bdae-e8b704968417")
-		(property "Reference" "TP81"
+		(property "Reference" "TP26"
 			(at 85.09 38.6079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16372,9 +16372,9 @@
 			(uuid "00c58ecb-1655-4b20-924e-80c231605e31")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP81")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP26")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16395,7 +16395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a987829-ffcd-4ba0-a2d7-73d296345cf2")
-		(property "Reference" "C69"
+		(property "Reference" "C24"
 			(at 246.38 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16490,9 +16490,9 @@
 			(uuid "587401e2-f967-4d27-bd18-b8f2c4291798")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C69")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "C24")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16572,8 +16572,8 @@
 			(uuid "986783b5-8cb6-4ce0-afad-0bffd0ced4f0")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -16592,7 +16592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c72aaeb-62be-4fba-872e-0f2c5ce30d11")
-		(property "Reference" "TP76"
+		(property "Reference" "TP21"
 			(at 179.07 16.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16673,9 +16673,9 @@
 			(uuid "4134f368-c5f4-4cd9-b9f8-cca0f91c3ddb")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP76")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP21")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16696,7 +16696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f08845c-ee48-4987-9036-91882ce372ae")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 118.11 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16849,9 +16849,9 @@
 			(uuid "60cfc5b9-1473-4082-80d8-b5b9c6fda561")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q2")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q3")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -16871,7 +16871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "912d20ff-2e98-468c-907e-1c9ca93f7713")
-		(property "Reference" "U30"
+		(property "Reference" "U7"
 			(at 44.45 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16984,9 +16984,9 @@
 			(uuid "f7e4346e-896d-45d4-a74e-81d18d84b397")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U30")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U7")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17008,7 +17008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91db5d24-aa62-429a-8a52-895ca4b716d5")
-		(property "Reference" "U32"
+		(property "Reference" "U9"
 			(at 55.88 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17154,9 +17154,9 @@
 			(uuid "72ca7ef1-2bbf-4388-bf20-8097e2a45f4d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U32")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U9")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17178,7 +17178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ed06e6-dd70-4580-8c2f-f135803131ab")
-		(property "Reference" "TP88"
+		(property "Reference" "TP33"
 			(at 243.84 99.5679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17259,9 +17259,9 @@
 			(uuid "5c3e3bcd-7110-4b22-9c9d-228aca24aafe")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP88")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP33")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17340,8 +17340,8 @@
 			(uuid "e5cf8a36-e63c-4442-8b40-4ee9126bc906")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -17360,7 +17360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97641af1-7cf3-4738-80e0-4ec9a8033319")
-		(property "Reference" "R55"
+		(property "Reference" "R22"
 			(at 165.1 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17455,9 +17455,9 @@
 			(uuid "5a88ff97-5460-4c0f-8c8c-d3d728dd00cd")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R55")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R22")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17478,7 +17478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b193499-cb19-42b3-9f4d-6be34cfeb853")
-		(property "Reference" "Q6"
+		(property "Reference" "Q7"
 			(at 127 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17631,9 +17631,9 @@
 			(uuid "0de449db-2cbd-4637-9a14-fca4455fd0dc")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q6")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q7")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17653,7 +17653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cf8eecb-fd96-4a6f-8685-2cf91f142492")
-		(property "Reference" "TP93"
+		(property "Reference" "TP38"
 			(at 73.66 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17735,9 +17735,9 @@
 			(uuid "606e333d-5849-4602-a43a-3afd97ce08d2")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP93")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP38")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17757,7 +17757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d473f23-99f2-474f-bd4d-9e18ccf55138")
-		(property "Reference" "R58"
+		(property "Reference" "R25"
 			(at 172.72 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17850,9 +17850,9 @@
 			(uuid "60c45785-3a5e-4c43-b6cd-5f5ba562b162")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R58")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R25")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17872,7 +17872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dd813c1-ae13-4f42-9815-cd867ebd07e2")
-		(property "Reference" "R52"
+		(property "Reference" "R19"
 			(at 212.725 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17967,9 +17967,9 @@
 			(uuid "a01f9525-a341-41f4-aad4-e647dc516546")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R52")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R19")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18048,8 +18048,8 @@
 			(uuid "f4012404-166b-4758-af1a-9d066d206297")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -18069,7 +18069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4c8e05-98e0-4611-92b3-5c74d2a8bac4")
-		(property "Reference" "TP79"
+		(property "Reference" "TP24"
 			(at 123.19 24.6379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18172,9 +18172,9 @@
 			(uuid "13626796-9188-426b-9a9f-e3695b708c70")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP79")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP24")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18195,7 +18195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2e42fcc-9730-4f91-b32e-f01a7d487011")
-		(property "Reference" "R42"
+		(property "Reference" "R9"
 			(at 243.84 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18290,9 +18290,9 @@
 			(uuid "07052fbf-5389-4e07-bc3a-cc291dd08e11")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R42")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R9")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18371,8 +18371,8 @@
 			(uuid "71bae273-af80-4e2e-b1f7-cd4da1e1171f")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -18391,7 +18391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a856ae28-26c9-4b3b-ac84-2fee43714095")
-		(property "Reference" "C70"
+		(property "Reference" "C25"
 			(at 35.56 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18486,9 +18486,9 @@
 			(uuid "15cc16a6-82c1-4d36-a038-0a69b0224bbd")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C70")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "C25")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18508,7 +18508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab23e9cb-2988-4098-ab02-01a94394d4cc")
-		(property "Reference" "R49"
+		(property "Reference" "R16"
 			(at 212.725 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18603,9 +18603,9 @@
 			(uuid "5f619c1f-5bb4-4617-bbd1-fa29e72d7808")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R49")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R16")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18626,7 +18626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44621e5-a6a7-4545-b388-12221cabae13")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 105.41 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18779,9 +18779,9 @@
 			(uuid "d0a89c4f-10ec-4415-b250-ef470372d7dc")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q1")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q2")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18860,8 +18860,8 @@
 			(uuid "16b82a6b-1df9-43c3-8c9e-821bff963aad")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR098")
 					(unit 1)
 				)
@@ -18880,7 +18880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b813fad7-54fd-4ad1-a6dc-52269b48c1eb")
-		(property "Reference" "TP78"
+		(property "Reference" "TP23"
 			(at 44.45 23.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18961,9 +18961,9 @@
 			(uuid "03dc07e4-d77d-47b3-8677-131fc94437e5")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP78")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP23")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18984,7 +18984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9be9a5a-ffee-47b1-9d7e-d75d989f5591")
-		(property "Reference" "R66"
+		(property "Reference" "R33"
 			(at 146.05 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19079,9 +19079,9 @@
 			(uuid "3dfcfaef-3cef-4d45-857b-095e89c22292")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R66")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R33")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -19160,8 +19160,8 @@
 			(uuid "7e696176-6940-4887-969a-327acbc5311d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -19179,7 +19179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be5a9bbe-e9e9-412d-b25b-4d6ec5fdaf19")
-		(property "Reference" "R46"
+		(property "Reference" "R13"
 			(at 243.84 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19274,9 +19274,9 @@
 			(uuid "797766e0-481c-4e98-8f18-3257516a245b")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R46")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R13")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -19355,8 +19355,8 @@
 			(uuid "063d556f-1b7d-4497-b8cd-bc50c31b34f7")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0131")
 					(unit 1)
 				)
@@ -19376,7 +19376,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bef93b43-84c6-426d-8394-29680ad13aec")
-		(property "Reference" "D17"
+		(property "Reference" "D11"
 			(at 232.41 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19482,9 +19482,9 @@
 			(uuid "98bb4ec2-a37b-4287-8720-adfadbc16538")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "D17")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "D11")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -19564,8 +19564,8 @@
 			(uuid "a8a3b669-7513-4fc9-8b47-ff9abe76a362")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR091")
 					(unit 1)
 				)
@@ -19642,8 +19642,8 @@
 			(uuid "33cfb05d-d764-46cc-93b9-f1951b26ba6b")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -19721,8 +19721,8 @@
 			(uuid "85a3ec93-1204-433f-ba63-b69b61b4e525")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0104")
 					(unit 1)
 				)
@@ -19742,7 +19742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77d9962-d6be-4b9c-9b92-fbb47ab8d7d0")
-		(property "Reference" "TP91"
+		(property "Reference" "TP36"
 			(at 213.36 137.9219 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19845,9 +19845,9 @@
 			(uuid "e6190e6a-0492-43c4-8174-35613f64376f")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP91")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP36")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -19869,7 +19869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceded096-3eea-45f4-a373-a0759b9948fb")
-		(property "Reference" "TP94"
+		(property "Reference" "TP39"
 			(at 144.78 150.6219 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19950,9 +19950,9 @@
 			(uuid "c681eb05-08eb-4080-83b4-8d801db8e7d1")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP94")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP39")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -20031,8 +20031,8 @@
 			(uuid "61db3e0b-7ada-4525-a42d-b638ea93553c")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0124")
 					(unit 1)
 				)
@@ -20051,7 +20051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2bbe58c-d189-4191-9d9d-357a3061188e")
-		(property "Reference" "U31"
+		(property "Reference" "U8"
 			(at 229.87 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20164,9 +20164,9 @@
 			(uuid "537e77c2-c8f2-4b54-8c4a-31514aca99ce")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U31")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U8")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -20188,7 +20188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d381f40e-8c8f-4422-8b87-6fbb94df3987")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 110.49 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20328,9 +20328,9 @@
 			(uuid "47a6a3d4-55f2-476f-95b1-3b8348d8aadf")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U29")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U6")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -20351,7 +20351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3c23769-ed7f-425f-bfb2-ef60a4f40472")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 138.43 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20491,9 +20491,9 @@
 			(uuid "47a6a3d4-55f2-476f-95b1-3b8348d8aae0")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "U29")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "U6")
 					(unit 3)
 					(variant
 						(name "JLCPCB")
@@ -20573,8 +20573,8 @@
 			(uuid "fd9df880-1960-472a-9c45-1612bf9ab8e0")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0106")
 					(unit 1)
 				)
@@ -20652,8 +20652,8 @@
 			(uuid "f81ff7d8-b816-4a1d-93ee-b400ee2e344e")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -20672,7 +20672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa3755b-ad95-439c-a43e-edef400876de")
-		(property "Reference" "Q8"
+		(property "Reference" "Q9"
 			(at 171.45 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20825,9 +20825,9 @@
 			(uuid "6c90cdf2-8213-429c-909c-cdf0b9cce6d4")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q8")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q9")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -20848,7 +20848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0196677-2ce5-4a75-bf75-c62d74bc6254")
-		(property "Reference" "C66"
+		(property "Reference" "C21"
 			(at 82.55 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20943,9 +20943,9 @@
 			(uuid "2c90b04c-e24c-4b47-b0bc-c089b4ac002d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "C66")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "C21")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -20965,7 +20965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4f530fd-c0fb-45ca-89f2-5f2ba050941b")
-		(property "Reference" "J16"
+		(property "Reference" "J5"
 			(at 62.23 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21072,9 +21072,9 @@
 			(uuid "4196c856-7915-4906-b4b7-95b11d44e099")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "J16")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "J5")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -21155,8 +21155,8 @@
 			(uuid "a9a1c8b2-065c-4f70-8983-83b3a19d1c1f")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0122")
 					(unit 1)
 				)
@@ -21233,8 +21233,8 @@
 			(uuid "77834efd-a82f-4930-8317-a966879311f7")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0108")
 					(unit 1)
 				)
@@ -21253,7 +21253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e86c5b80-006d-410f-bcd6-4247d08ad17a")
-		(property "Reference" "R43"
+		(property "Reference" "R10"
 			(at 99.06 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21348,9 +21348,9 @@
 			(uuid "3f388360-c6d5-48f1-9965-673580a1f83d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R43")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R10")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -21371,7 +21371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea38f19a-5dab-4bdc-8ef1-87e6b4f11ecf")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 189.23 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21524,9 +21524,9 @@
 			(uuid "a3bac57a-fbbf-4669-89eb-f68027167459")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "Q3")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "Q4")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -21547,7 +21547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee72de4-7776-4120-9b2d-e177b776ab47")
-		(property "Reference" "TP86"
+		(property "Reference" "TP31"
 			(at 58.42 88.1379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21628,9 +21628,9 @@
 			(uuid "b8d9de14-95db-40bc-b859-efc15261147d")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP86")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP31")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -21650,7 +21650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0fa66a4-73cb-4a34-ad0b-2f99a03080db")
-		(property "Reference" "TP77"
+		(property "Reference" "TP22"
 			(at 271.78 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21732,9 +21732,9 @@
 			(uuid "12458799-e621-4eb8-9250-4690d471fac8")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP77")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP22")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -21755,7 +21755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13c66e2-d97c-4327-b28a-989cbbd36aee")
-		(property "Reference" "TP80"
+		(property "Reference" "TP25"
 			(at 98.298 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21834,9 +21834,9 @@
 			(uuid "134f74f3-bcf7-4f96-8ae5-2d1c766385ac")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "TP80")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "TP25")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -21916,8 +21916,8 @@
 			(uuid "66defa9a-751b-435e-8391-2c383167fcac")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -21935,7 +21935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f45c8f4d-43a9-4760-8dd2-e853021fca84")
-		(property "Reference" "D14"
+		(property "Reference" "D8"
 			(at 38.1 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22030,9 +22030,9 @@
 			(uuid "82f198a6-9d4c-4dac-88fb-cfc547432912")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "D14")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "D8")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -22112,8 +22112,8 @@
 			(uuid "42f2cfc7-b172-4d3f-a4a8-dbf78353f13f")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -22131,7 +22131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6648712-8a71-4bf9-9f67-7be77ced86af")
-		(property "Reference" "R47"
+		(property "Reference" "R14"
 			(at 66.04 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22224,9 +22224,9 @@
 			(uuid "2056bbf8-59bf-4eee-a906-9dc0d48f1ab7")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "R47")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "R14")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -22306,8 +22306,8 @@
 			(uuid "ee45671c-fb05-4825-9ab3-ae26edaa86fb")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -22385,8 +22385,8 @@
 			(uuid "cb8c12b8-2984-43b6-bd2b-7722e35d4927")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0118")
 					(unit 1)
 				)
@@ -22463,8 +22463,8 @@
 			(uuid "a0d6add4-2d4d-452d-b29b-ffbc21934ef3")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
 					(reference "#PWR0117")
 					(unit 1)
 				)
@@ -22482,7 +22482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe5a400d-46f1-42d0-883f-fe70d2e3e88a")
-		(property "Reference" "D13"
+		(property "Reference" "D7"
 			(at 30.48 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22577,9 +22577,9 @@
 			(uuid "ae805e85-ef72-4454-a9ce-33f40ca922ef")
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(reference "D13")
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(reference "D7")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -22657,9 +22657,14 @@
 			)
 		)
 		(instances
-			(project "power-pcb"
-				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/05adacf9-dba4-4936-b6fe-ec5f18c7259d"
-					(page "13")
+			(project ""
+				(path "/bdaef275-ff46-44af-a864-07824f40e762"
+					(page "#")
+				)
+			)
+			(project "safety-pcb"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/bdaef275-ff46-44af-a864-07824f40e762"
+					(page "4")
 				)
 			)
 		)
